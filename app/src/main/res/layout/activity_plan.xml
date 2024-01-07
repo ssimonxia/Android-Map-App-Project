@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent">
+  <EditText
+    android:id="@+id/name_plan"
+    android:layout_width="match_parent"
+    android:layout_height="20dp"
+    android:layout_weight="1"
+    android:gravity="top|start"
+    android:padding="8dp"
+    android:inputType="textMultiLine|textCapSentences|textAutoComplete"
+    android:textAlignment="viewStart"
+    android:singleLine="false"
+    android:textIsSelectable="true"
+    android:text="@string/add_the_name_of_the_favorite_place_you_plan_to_go" />
+  <EditText
+    android:id="@+id/note"
+    android:layout_width="match_parent"
+    android:layout_height="400dp"
+    android:layout_weight="1"
+    android:gravity="top|start"
+    android:padding="8dp"
+    android:inputType="textMultiLine|textCapSentences|textAutoComplete"
+    android:textAlignment="viewStart"
+    android:singleLine="false"
+    android:textIsSelectable="true"
+    android:text="@string/add_your_note" />
+
+  <LinearLayout
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <Button
+      android:id="@+id/save_button"
+      android:layout_weight="1"
+      android:layout_height="wrap_content"
+      android:layout_width="0dp"
+      android:text="@string/save" />
+    <Button
+      android:id="@+id/cancel_button"
+      android:layout_weight="1"
+      android:layout_height="wrap_content"
+      android:layout_width="0dp"
+      android:text="@string/cancel" />
+  </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,16 @@
+<resources>
+  <string name="app_name">Favorite Places</string>
+  <string name="search_title">Find Places</string>
+  <string name="save">Save</string>
+  <string name="cancel">Cancel</string>
+  <string name="initial_text">Describe your favorite place here…</string>
+  <string name="describe_the_type_of_the_place">Describe the type of the place here…</string>
+  <string name="add_your_comment">Add your comment…</string>
+  <string name="rate_the_place_from_one_to_ten_the_number_should_be_integer_without_any_decimal_places">Rate the place from one to ten.</string>
+  <string name="_1_10">1–10</string>
+  <string name="add_id_you_want_to_comment_on">Add name you want to comment on</string>
+  <string name="comment">comment</string>
+    <string name="add_the_name_of_the_favorite_place_you_plan_to_go">add the name of the favorite place you plan to go</string>
+  <string name="add_your_note">Add your note</string>
+  <string name="plan">plan</string>
+</resources>

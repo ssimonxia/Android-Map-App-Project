@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent">
+  <EditText
+    android:id="@+id/name"
+    android:layout_width="match_parent"
+    android:layout_height="20dp"
+    android:layout_weight="1"
+    android:gravity="top|start"
+    android:padding="8dp"
+    android:inputType="textMultiLine|textCapSentences|textAutoComplete"
+    android:textAlignment="viewStart"
+    android:singleLine="false"
+    android:textIsSelectable="true"
+    android:text="@string/add_id_you_want_to_comment_on" />
+  <EditText
+    android:id="@+id/comment"
+    android:layout_width="match_parent"
+    android:layout_height="400dp"
+    android:layout_weight="1"
+    android:gravity="top|start"
+    android:padding="8dp"
+    android:inputType="textMultiLine|textCapSentences|textAutoComplete"
+    android:textAlignment="viewStart"
+    android:singleLine="false"
+    android:textIsSelectable="true"
+    android:text="@string/add_your_comment" />
+
+  <TextView
+    android:id="@+id/textView"
+    android:layout_width="match_parent"
+    android:layout_height="10dp"
+    android:layout_weight="1"
+    android:padding="8dp"
+    android:gravity="top|start"
+    android:textAlignment="viewStart"
+    android:textIsSelectable="true"
+    android:text="@string/rate_the_place_from_one_to_ten_the_number_should_be_integer_without_any_decimal_places"
+    android:textSize="24sp"/>
+
+  <EditText
+    android:id="@+id/rate"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:layout_weight="1"
+    android:gravity="top|start"
+    android:padding="8dp"
+    android:inputType="number|numberDecimal"
+    android:textAlignment="viewStart"
+    android:singleLine="false"
+    android:textIsSelectable="true"
+    android:text="@string/_1_10" />
+
+  <LinearLayout
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <Button
+      android:id="@+id/save_button"
+      android:layout_weight="1"
+      android:layout_height="wrap_content"
+      android:layout_width="0dp"
+      android:text="@string/save" />
+    <Button
+      android:id="@+id/cancel_button"
+      android:layout_weight="1"
+      android:layout_height="wrap_content"
+      android:layout_width="0dp"
+      android:text="@string/cancel" />
+  </LinearLayout>
+
+</LinearLayout>
